@@ -1,11 +1,10 @@
 import "./App.css";
+import RequiredAuth from "./hoc/RequiredAuth"
 
 function App() {
   return (
     <div className="App">
-      {
-        // Code here
-      }
+    <RequiredAuth/>
     </div>
   );
 }
